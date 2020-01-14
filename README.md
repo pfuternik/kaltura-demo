@@ -1,6 +1,6 @@
 # kaltura-demo
 
-This app leverages the Kaltura Player to load and play videos of a boy practicing tennis. The videos are loaded from a Kaltura account. The UI presents a picker to allow the user to select from several videos to play. The Kaltura Player analytics are sent to the Kaltura backend and all data about plays and shares can be viewed in the KMC or retrieved using the Kaltura Reporting API.
+This app leverages the Kaltura Player to load and play videos of a boy (my son!) practicing tennis. The videos are loaded from a Kaltura account. The UI presents a picker to allow the user to select from several videos to play. The Kaltura Player analytics are sent to the Kaltura backend and all data about plays and shares can be viewed in the KMC or retrieved using the Kaltura Reporting API.
 
 ## Prerequisites
 
