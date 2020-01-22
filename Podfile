@@ -9,4 +9,5 @@ target 'Kaltura-Demo' do
   pod "PlayKit"
   pod "PlayKitProviders"
   pod "PlayKitKava"
+  pod "Arcane"
 end
