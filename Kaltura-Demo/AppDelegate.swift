@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import PlayKitKava
+import PlayKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        PlayKitManager.shared.registerPlugin(KavaPlugin.self)
+        PlayKitManager.logLevel = .debug
         return true
     }
 
